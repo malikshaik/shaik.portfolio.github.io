@@ -16,12 +16,15 @@ import { ProjectsComponent } from './projects/projects.component';
 import { NgxPaginationModule } from 'ngx-pagination';
 import { SplitPipe } from './split.pipe';
 import { ExtraCiricularComponent } from './extra-ciricular/extra-ciricular.component';
+import { NgxSpinnerModule } from "ngx-spinner";
+
 
 @NgModule({
   imports: [
     CommonModule,
     FormsModule,
-    NgxPaginationModule
+    NgxPaginationModule,
+    NgxSpinnerModule
   ],
   declarations: [
     ProfileComponent,
