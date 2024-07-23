@@ -183,11 +183,11 @@ export class ProfileService {
   ]
   about2 = `Software Developer with 8+ years of experience .
   Worked with Software Development Life Cycle(SDLC) and  agile methodologies .
-  Expertise in Angular 12+ All versions, React, Javascript,  Node JS and UI with Responsive Designs .
+  Expertise in Angular 14+ All versions, TypeScript,  Javascript,  Node JS and UI with Responsive Designs .
   Have good understanding of Python, Jquery, Bootstrap, MongoDB, Firebase, and MYSQL`
 
   about = "Lover of innovation and everything related to generate new knowledge.Face problems with a smile and solve them as soon as possible. Very calculated about the time I spend and work I do."
-  resumeurl = "https://docs.google.com/document/d/1DXdT6lrDKNDBsZiUvFUDAyOnp7qrUj83/edit"
+  resumeurl = "https://drive.google.com/file/d/1-fUHJJ3E3aQkXqxEKqCQQnsd79aAec_5/view?usp=drive_link"
 
   skillsData: any = [
     {
@@ -288,8 +288,7 @@ export class ProfileService {
       location: 'New Jersey, NJ (Remote)',
       timeline: 'August 2020 - April 2021',
       role: 'Sr. Front End Web Application Developer/AEM',
-      work: `Technologies : Angular , JavaSpring Boot , SQL. Apache Solr .
-
+      work: `Technologies : Angular , JavaSpring Boot , SQL. Apache Solr.
       .Build and own our frontend architecture.
       .Push the boundaries of modern frontend engineering to build fast and ambitious web applications.
       .Work closely with our Product Team and Engineering teams to build features that have significant business impact
@@ -318,7 +317,7 @@ export class ProfileService {
       id: 5,
       company: 'Kroger Technology',
       location: 'Charlotte, NC',
-      timeline: 'Feb 2019 To July 2020',
+      timeline: 'Jan 2017 To July 2020',
       role: 'Angular UI Developer',
       work: `Technologies : HTML, CSS frameworks, Type Script, Angular, ionic, cordova, Bootstrap, story book' .
       Worked on the web application built in Angular for retail industry related project.
