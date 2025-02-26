@@ -83,12 +83,6 @@
           },
           "defaultConfiguration": "development"
         },
-        "deploy": {
-          "builder": "angular-cli-ghpages:deploy",
-          "options": {
-          "baseHref": "https://malikshaik.github.io/shaik.portfolio.github.io/"
-          }
-        }
         "extract-i18n": {
           "builder": "@angular-devkit/build-angular:extract-i18n",
           "options": {
@@ -111,6 +105,14 @@
               "src/styles.scss"
             ],
             "scripts": []
+          }
+        },
+        "deploy": {
+          "builder": "angular-cli-ghpages:deploy",
+          "options": {
+            "baseHref": "https://malikshaik.github.io/shaik.portfolio.github.io/",
+            "branch": "gh-pages",
+            "message": "Deployed to GitHub Pages"
           }
         }
       }
