@@ -1,10 +1,14 @@
 import { Component, OnInit } from '@angular/core';
 import { ProfileService } from '../profile.service';
+import { NgxPaginationModule } from 'ngx-pagination';
+import { NgFor } from '@angular/common';
 
 @Component({
-  selector: 'app-projects',
-  templateUrl: './projects.component.html',
-  styleUrls: ['./projects.component.scss']
+    selector: 'app-projects',
+    templateUrl: './projects.component.html',
+    styleUrls: ['./projects.component.scss'],
+    standalone: true,
+    imports: [NgxPaginationModule, NgFor]
 })
 export class ProjectsComponent implements OnInit {
   config: any;

@@ -8,8 +8,8 @@ describe('ExtraCiricularComponent', () => {
 
   beforeEach(async () => {
     await TestBed.configureTestingModule({
-      declarations: [ ExtraCiricularComponent ]
-    })
+    imports: [ExtraCiricularComponent]
+})
     .compileComponents();
   });
 

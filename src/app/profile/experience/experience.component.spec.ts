@@ -8,8 +8,8 @@ describe('ExperienceComponent', () => {
 
   beforeEach(async(() => {
     TestBed.configureTestingModule({
-      declarations: [ ExperienceComponent ]
-    })
+    imports: [ExperienceComponent]
+})
     .compileComponents();
   }));
 

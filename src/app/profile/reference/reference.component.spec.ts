@@ -8,8 +8,8 @@ describe('ReferenceComponent', () => {
 
   beforeEach(async(() => {
     TestBed.configureTestingModule({
-      declarations: [ ReferenceComponent ]
-    })
+    imports: [ReferenceComponent]
+})
     .compileComponents();
   }));
 
