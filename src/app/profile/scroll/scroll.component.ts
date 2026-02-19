@@ -1,13 +1,15 @@
 import { Component, OnInit, Inject, HostListener } from '@angular/core';
-import { DOCUMENT } from "@angular/common";
+import { DOCUMENT, CommonModule } from "@angular/common";
 
 @Component({
     selector: 'app-scroll',
     templateUrl: './scroll.component.html',
-    styleUrls: ['./scroll.component.scss']
+    styleUrls: ['./scroll.component.scss'],
+    standalone: true,
+    imports: [CommonModule]
 })
 export class ScrollComponent implements OnInit {
-    windowScrolled: boolean;
+    windowScrolled: boolean = false;
     constructor(@Inject(DOCUMENT) private document: Document) {}
     @HostListener("window:scroll", [])
     onWindowScroll() {
